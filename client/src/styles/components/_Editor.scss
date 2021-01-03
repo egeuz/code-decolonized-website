@@ -1,0 +1,37 @@
+//EDITOR
+
+#editor {
+  width: 100%;
+  max-width: 900px;
+  background: #eee;
+  display: grid;
+  height: 700px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 60px;
+  grid-gap: 50px;
+}
+
+#input-area {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+
+  textarea {
+    padding: 10px;
+    resize: none;
+  }
+}
+
+#preview-area {
+  width: 100%;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+#bottom-row {
+  grid-row: 2;
+  grid-column: 1 / span 2;
+}
