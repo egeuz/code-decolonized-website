@@ -7,7 +7,7 @@ function App() {
   const [editorOpen, setEditorOpen] = useState(false)
   const [posts, setPosts] = useState("")
 
-  const openEditor = () => { setEditorOpen(true) } 
+  const openEditor = () => { setEditorOpen(true) }
   const closeEditor = () => { setEditorOpen(false) }
 
   const fetchPosts = async () => {
